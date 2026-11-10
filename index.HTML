@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portfolio de Shahyn Kacem – BTS SIO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{--bg:#fff;--ink:#1a1a1a;--mute:#6b6b6b;--line:#e6e6e6;--accent:#1a1a1a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111;--ink:#eee;--mute:#9a9a9a;--line:#2c2c2c;--accent:#eee;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#111;--ink:#eee;--mute:#9a9a9a;--line:#2c2c2c;--accent:#eee;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 "DM Sans",system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.shell{display:block}
+aside{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px 32px;padding:22px clamp(20px,6vw,80px);border-bottom:1px solid var(--line)}
+.brand{font-weight:700;font-size:17px;margin:0;color:var(--accent)}
+.brand small{display:inline;font-size:14px;font-weight:400;color:var(--mute);margin-left:10px}
+nav{display:flex;flex-wrap:wrap;gap:4px 22px}
+nav a{color:var(--mute);text-decoration:none;font-size:15px;padding:3px 0;border-bottom:1px solid transparent}
+nav a:hover{color:var(--ink)}
+nav a[aria-current="page"]{color:var(--accent);border-bottom-color:var(--accent)}
+a:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+main{max-width:760px;margin:0 auto;padding:56px 24px 96px}
+section{display:none}
+section.on{display:block}
+h1{font-size:clamp(30px,4.5vw,42px);line-height:1.15;font-weight:600;letter-spacing:-.02em;margin:0 0 16px}
+h2{font-size:20px;line-height:1.3;font-weight:600;margin:52px 0 12px;color:var(--accent)}
+h3{font-size:16px;font-weight:600;margin:20px 0 6px}
+p,li{max-width:68ch}
+p{margin:0 0 12px}
+ul{padding-left:20px}
+.lead{font-size:18px;color:var(--mute);max-width:56ch}
+.card{border-top:1px solid var(--line);padding:16px 0 0;margin:16px 0}
+.card h3{margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px 32px}
+.grid .card{margin:8px 0}
+.tablewrap{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}
+th,td{text-align:left;padding:10px 14px 10px 0;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;border-bottom:1px solid var(--accent)}
+.tag{display:inline-block;border:1px solid var(--line);border-radius:99px;padding:1px 12px;font-size:14px;color:var(--mute);margin:0 6px 6px 0}
+.fiche dt{font-weight:600;margin-top:14px}.fiche dd{margin:2px 0 0;color:var(--ink)}
+.step{display:grid;grid-template-columns:28px 1fr;gap:8px;margin:8px 0}
+.step b{color:var(--accent);font-weight:600}
+.note{border-left:2px solid var(--accent);padding:2px 0 2px 16px;color:var(--mute);margin:20px 0}
+@media (max-width:640px){main{padding-top:36px}aside{padding:16px 20px}.brand small{display:block;margin:0}}
+@media print{aside{display:none}section{display:block!important;page-break-after:always}}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside>
+<p class="brand">Shahyn Kacem<small>Étudiant en BTS SIO</small></p>
+<nav id="nav" aria-label="Sections du portfolio">
+<a href="#accueil">Présentation</a>
+<a href="#parcours">Parcours</a>
+<a href="#projets">Projets et compétences</a>
+<a href="#cms">Synthèse CMS</a>
+<a href="#veille">Veille technologique</a>
+<a href="#e5">Épreuve E5</a>
+<a href="#suivi">Suivi AP2</a>
+</nav>
+</aside>
+<main>
+
+<section id="accueil">
+<h1>Shahyn Kacem</h1>
+<p class="lead">Étudiant en BTS Services informatiques aux organisations (SIO), à Aubervilliers. Ancien lycéen en bac pro CIEL, je vise l’option SISR (solutions d’infrastructure, systèmes et réseaux). Je construis ici la trace de ce que j’ai fait et de ce que je sais faire.</p>
+
+<h2>Qui suis-je ?</h2>
+<div class="grid">
+<div class="card"><h3>Ce que je fais actuellement</h3><p>Première année de BTS SIO à Charles de Foucauld. Je prépare mon portfolio, ma veille technologique et ma recherche de stage.</p></div>
+<div class="card"><h3>Ce que je voudrais faire plus tard</h3><p>Je souhaite exercer un métier dans l’option SISR, autour des systèmes et des réseaux : administrer une infrastructure, la sécuriser et assurer le support des utilisateurs.</p></div>
+<div class="card"><h3>Ce que j’aime / ce que j’aime moins</h3><p>J’aime les jeux vidéo et le football. Ce que j’aime moins : les livres.</p></div>
+<div class="card"><h3>Mes 5 qualités</h3><ul><li>Sérieux</li><li>Curieux</li><li>Persévérant</li><li>Esprit d’équipe</li><li>Adaptable</li></ul></div>
+</div>
+
+<h2>Pourquoi ce portfolio ?</h2>
+<div class="card">
+<dl class="fiche">
+<dt>Type de portfolio</dt><dd>Portfolio de présentation (mes meilleures productions) et de développement professionnel (mon cheminement).</dd>
+<dt>À qui il s’adresse</dt><dd>Mes enseignants, les entreprises qui recevront ma candidature de stage, et le jury de l’épreuve orale E5.</dd>
+<dt>Ce qu’il contient</dt><dd>Mon parcours, mes projets avec les compétences mobilisées, mes synthèses de l’AP2 (CMS, veille, épreuve E5) et mon sujet de veille.</dd>
+<dt>Comment l’utiliser</dt><dd>Chaque production est datée et accompagnée d’une fiche qui explique pourquoi je l’ai retenue. Le portfolio est mis à jour au fil des deux années.</dd>
+</dl>
+</div>
+<div class="note">Ce portfolio est écrit à la main en HTML/CSS, sans CMS, comme demandé dans la Mission 1.</div>
+</section>
+
+<section id="parcours">
+<h1>Parcours</h1>
+<p class="lead">Tableau biographique : ce que j’ai fait, classé par période, avec les pièces justificatives à rassembler.</p>
+<div class="tablewrap"><table>
+<thead><tr><th>Période</th><th>Formation</th><th>Stages</th><th>Emplois</th><th>Sport et autres activités</th><th>Pièces justificatives</th></tr></thead>
+<tbody>
+<tr><td>2023–2026</td><td>Bac pro CIEL, lycée Jean-Baptiste de La Salle, Saint-Denis</td><td>PFMP chez APCIS, Stains, du 3 novembre au 19 décembre 2025</td><td>–</td><td>–</td><td>Diplôme du bac pro, relevés de notes, attestation de PFMP</td></tr>
+<tr><td>2026–2027</td><td>BTS SIO 1re année, option SISR visée, Charles de Foucauld</td><td>Recherche de stage en cours</td><td>Recherche d’un job étudiant : équipier polyvalent, Auchan Supermarché Aubervilliers</td><td>Entraînements trois soirs par semaine, match le dimanche matin</td><td>Certificat de scolarité, TP, CV et lettre de motivation à jour</td></tr>
+</tbody></table></div>
+<div class="note">Conseil du guide ePortfolio : collecte d’abord les preuves (diplômes, attestations, photos, travaux), classe-les par date, et ne fais pas d’autre tri pour l’instant.</div>
+
+<h2>Documents à joindre</h2>
+<div class="card"><span class="tag">CV</span><span class="tag">Lettre de motivation</span><span class="tag">Diplômes et attestations</span><span class="tag">Certificat de scolarité</span><span class="tag">Photos de projets</span><span class="tag">Personnes-ressources</span></div>
+</section>
+
+<section id="projets">
+<h1>Projets et compétences</h1>
+<p class="lead">Chaque projet est analysé avec la fiche « situation professionnelle » du guide : contexte, activités conduites, compétences mobilisées.</p>
+
+<h2>TP : devis PC détaillé sous Excel</h2>
+<div class="card">
+<dl class="fiche">
+<dt>Date et lieu</dt><dd>Octobre 2026, salle D21, BTS SIO.</dd>
+<dt>Type de situation</dt><dd>Travaux pratiques en formation.</dd>
+<dt>Contexte</dt><dd>Avec qui : un client fictif, CDF-Formation. Pour quoi faire : chiffrer un poste informatique complet. Enjeux : respecter une enveloppe de 1 400 € TTC maximum et une configuration imposée (Core Ultra 5 235 minimum, 32 Go de DDR5, SSD interne de 2 To, disque externe de 2 To, carte réseau Gigabit).</dd>
+<dt>Activités conduites</dt>
+<dd>
+<div class="step"><b>1</b><span>Analyser le cahier des charges et lister les composants à chiffrer.</span></div>
+<div class="step"><b>2</b><span>Chercher chaque composant chez des fournisseurs autorisés (certains sites étaient exclus par le sujet).</span></div>
+<div class="step"><b>3</b><span>Vérifier la compatibilité : carte mère, processeur, mémoire, alimentation, boîtier.</span></div>
+<div class="step"><b>4</b><span>Construire le devis détaillé sous Excel et contrôler le total TTC.</span></div>
+</dd>
+<dt>Compétences mobilisées</dt><dd><span class="tag">Analyse d’un besoin client</span><span class="tag">Connaissance du matériel</span><span class="tag">Veille sur les prix et références</span><span class="tag">Excel : tableau et calculs</span><span class="tag">Respect d’un budget</span></dd>
+</dl>
+
+</div>
+
+<h3>Fiche explicative de la production</h3>
+<div class="card"><dl class="fiche">
+<dt>Nom de la production</dt><dd>Devis PC détaillé, client CDF-Formation</dd>
+<dt>Date de création</dt><dd>Octobre 2026</dd>
+<dt>Type</dt><dd>Tableur Excel</dd>
+<dt>Explication</dt><dd>Devis comparant les composants d’une configuration imposée, avec prix unitaires, fournisseurs et total TTC.</dd>
+<dt>Raison de la sélection</dt><dd>Ce travail montre ma rigueur : respecter un budget et une configuration imposée, et présenter un devis clair et facile à vérifier.</dd>
+</dl></div>
+
+<h2>Projets personnels</h2>
+<div class="card"><p>Je n’ai pas de projet personnel pour le moment.</p></div>
+
+<h2>Autres situations à analyser</h2>
+<div class="card"><p>Ajoute ici une fiche par situation : stage, job étudiant, projet de groupe. Utilise le même modèle : type de situation, contexte, activités conduites (phases 1 à 4), compétences mobilisées.</p></div>
+</section>
+
+<section id="cms">
+<h1>Synthèse : les CMS</h1>
+<p class="lead">Mission 1, travail en groupe : définir, justifier, donner des exemples, comparer et choisir.</p>
+
+<h2>Qu’est-ce qu’un CMS ?</h2>
+<p>Un CMS (Content Management System, ou système de gestion de contenu) est un logiciel qui permet de créer, modifier et publier un site web sans programmer chaque page. Le contenu est séparé de la mise en forme : on rédige dans une interface d’administration, et le CMS génère les pages.</p>
+
+<h2>Pourquoi en utiliser un ?</h2>
+<ul>
+<li>Gain de temps : modèles de pages et thèmes prêts à l’emploi.</li>
+<li>Plusieurs rédacteurs peuvent publier, avec des rôles et des droits différents.</li>
+<li>Des extensions ajoutent des fonctions (formulaire, boutique, référencement).</li>
+<li>Les mises à jour de sécurité sont publiées par la communauté ou l’éditeur.</li>
+</ul>
+
+<h2>Comparatif</h2>
+<div class="tablewrap"><table>
+<thead><tr><th>Critère</th><th>WordPress</th><th>Joomla</th><th>Drupal</th><th>Google Sites</th></tr></thead>
+<tbody>
+<tr><td>Type</td><td>CMS open source (PHP, MySQL/MariaDB)</td><td>CMS open source (PHP, MySQL/MariaDB)</td><td>CMS open source (PHP, base de données)</td><td>Outil en ligne de création de sites</td></tr>
+<tr><td>Prise en main</td><td>Facile</td><td>Moyenne</td><td>Difficile</td><td>Très facile</td></tr>
+<tr><td>Extensions et thèmes</td><td>Très nombreux</td><td>Nombreux</td><td>Nombreux, orientés besoins complexes</td><td>Limités</td></tr>
+<tr><td>Hébergement</td><td>Libre (ou hébergé)</td><td>Libre</td><td>Libre</td><td>Hébergé par Google</td></tr>
+<tr><td>Maîtrise et personnalisation</td><td>Élevée</td><td>Élevée</td><td>Très élevée</td><td>Faible</td></tr>
+<tr><td>Usage typique</td><td>Blog, vitrine, boutique</td><td>Sites avec contenus structurés</td><td>Gros sites, portails, droits fins</td><td>Portfolio simple, site de classe</td></tr>
+</tbody></table></div>
+
+
+<h2>CMS retenu (proposition)</h2>
+<div class="card"><p><b>WordPress.</b> Prise en main rapide, énorme choix de thèmes et d’extensions, documentation et communauté très étendues, hébergement libre. C’est un bon compromis pour un portfolio, un blog ou un site vitrine.</p></div>
+</section>
+
+<section id="veille">
+<h1>Veille technologique</h1>
+<p class="lead">Mission 2 : définir la veille, expliquer son intérêt, présenter méthodes, types et outils, puis choisir mon sujet.</p>
+
+<h2>Mon sujet de veille</h2>
+<div class="card">
+<p><b>Sujet :</b> les attaques par déni de service (DDoS) et la sécurité des serveurs de jeux vidéo.</p>
+<p><b>Pourquoi ce sujet :</b> j’aime les jeux vidéo et je vise l’option SISR. Les serveurs de jeux en ligne sont une cible fréquente d’attaques qui les rendent indisponibles. Suivre ce sujet me fait travailler la sécurité des réseaux, la haute disponibilité des services et les moyens de protection (pare-feu, filtrage, répartition de charge), qui sont au cœur du métier d’administrateur systèmes et réseaux.</p>
+<p class="lead" style="font-size:15px">Ce sujet pourra être présenté à l’épreuve orale, et tu pourras le changer en deuxième année.</p>
+</div>
+
+<h2>Définition</h2>
+<p>La veille technologique est l’activité qui consiste à surveiller de façon continue et organisée les évolutions d’un domaine (technologies, outils, failles de sécurité, réglementation) afin d’en tirer des informations utiles pour décider et agir.</p>
+
+<h2>Pourquoi elle compte dans mon futur métier</h2>
+<ul>
+<li>Les outils, langages et menaces informatiques évoluent très vite : sans veille, les compétences vieillissent.</li>
+<li>Un technicien ou développeur doit connaître les failles et correctifs qui touchent les systèmes qu’il gère.</li>
+<li>Elle aide à conseiller un client ou une entreprise sur des choix techniques à jour.</li>
+<li>Elle fait partie des attendus du BTS SIO et de l’épreuve orale.</li>
+</ul>
+
+<h2>Méthode</h2>
+<div class="step"><b>1</b><span><b>Définir le besoin</b> : choisir un sujet précis et les questions à suivre.</span></div>
+<div class="step"><b>2</b><span><b>Identifier les sources</b> : sites, flux, newsletters, presse, forums fiables.</span></div>
+<div class="step"><b>3</b><span><b>Collecter</b> : s’abonner et automatiser (flux RSS, alertes).</span></div>
+<div class="step"><b>4</b><span><b>Trier et valider</b> : vérifier la fiabilité et la date, écarter le bruit.</span></div>
+<div class="step"><b>5</b><span><b>Analyser et synthétiser</b> : en tirer ce qui change quelque chose pour moi.</span></div>
+<div class="step"><b>6</b><span><b>Diffuser et archiver</b> : publier dans mon portfolio, garder les sources.</span></div>
+<div class="step"><b>7</b><span><b>Réévaluer</b> : ajuster les sources et le sujet régulièrement.</span></div>
+
+<h2>Types de veille et outils adaptés</h2>
+<div class="tablewrap"><table>
+<thead><tr><th>Type</th><th>Objet</th><th>Outils possibles</th></tr></thead>
+<tbody>
+<tr><td>Technologique</td><td>Nouveautés techniques, langages, produits</td><td>Feedly, Inoreader, newsletters techniques, LinuxFr, 01net, presse professionnelle</td></tr>
+<tr><td>Sécurité</td><td>Failles, alertes, correctifs</td><td>CERT-FR et ANSSI, alertes éditeurs, flux RSS spécialisés</td></tr>
+<tr><td>Concurrentielle</td><td>Offres et actions des concurrents</td><td>Google Alerts, Mention, sites des concurrents</td></tr>
+<tr><td>Commerciale</td><td>Clients, fournisseurs, marchés</td><td>LinkedIn, salons spécialisés, presse économique</td></tr>
+<tr><td>Juridique et réglementaire</td><td>Lois, normes, protection des données</td><td>Légifrance, site de la CNIL</td></tr>
+</tbody></table></div>
+
+<h2>Sources incontournables</h2>
+<div class="card">
+<span class="tag">Moteurs de recherche (Google, Exalead)</span><span class="tag">Cabinets d’études (Gartner, Forrester)</span><span class="tag">Salons métiers</span><span class="tag">Clubs d’utilisateurs (Cigref…)</span><span class="tag">Newsletters techniques</span><span class="tag">Presse professionnelle</span>
+<p>Conseil de la mission : une bonne veille demande de la curiosité générale, pas seulement technique. Nul besoin d’avoir raison trop tôt : il faut repérer les bonnes technologies et être prêt quand le marché l’est aussi.</p>
+</div>
+
+<h2>Comparatif de trois outils</h2>
+<div class="tablewrap"><table>
+<thead><tr><th>Critère</th><th>Feedly</th><th>Google Alerts</th><th>Inoreader</th></tr></thead>
+<tbody>
+<tr><td>Principe</td><td>Agrégateur de flux RSS</td><td>Alertes e-mail sur des mots-clés</td><td>Agrégateur de flux RSS</td></tr>
+<tr><td>Avantage</td><td>Lecture centralisée, interface claire</td><td>Gratuit, très simple à mettre en place</td><td>Filtres et règles puissants</td></tr>
+<tr><td>Limite</td><td>Fonctions avancées selon l’offre</td><td>Résultats parfois bruités, pas de tri</td><td>Prise en main plus longue</td></tr>
+</tbody></table></div>
+<p><b>Outil retenu :</b> Feedly. Il regroupe dans une seule interface les flux RSS de mes sources (CERT-FR, sites spécialisés en sécurité réseau et en jeux vidéo), ce qui me permet de suivre mon sujet sans multiplier les e-mails.</p>
+
+
+</section>
+
+<section id="e5">
+<h1>Épreuve orale E5</h1>
+<p class="lead">Mission 3 : « Parcours de professionnalisation », en deuxième année de BTS SIO, option SISR.</p>
+<div class="note">Le portfolio et la veille de cette année pourront être présentés à l’épreuve. Rien n’est définitif : tu pourras modifier ton choix en deuxième année.</div>
+
+<h2>À rechercher dans le référentiel du diplôme</h2>
+<ul>
+<li>Durée, coefficient et déroulement de l’épreuve orale.</li>
+<li>Compétences évaluées.</li>
+<li>Tableau de synthèse des compétences à intégrer ici.</li>
+</ul>
+<p>Source indiquée : référentiel du diplôme (Certa Dijon).</p>
+
+<h2>Tableau de synthèse des compétences</h2>
+<div class="tablewrap"><table>
+<thead><tr><th>Bloc de compétences</th><th>Ma preuve</th><th>Date</th><th>État</th></tr></thead>
+<tbody>
+<tr><td>Support et mise à disposition de services informatiques</td><td>TP devis PC (début)</td><td>Oct. 2026</td><td>En cours</td></tr>
+<tr><td>Option SISR (solutions d’infrastructure, systèmes et réseaux)</td><td>Stages et TP réseaux de la formation</td><td>2026–2028</td><td>En cours</td></tr>
+<tr><td>Cybersécurité des services informatiques</td><td>Veille sur les attaques DDoS</td><td>2026–2027</td><td>En cours</td></tr>
+</tbody></table></div>
+
+</section>
+
+<section id="suivi">
+<h1>Suivi AP2</h1>
+<p class="lead">Livrables attendus et plan de l’oral, pour ne rien oublier.</p>
+
+<h2>Travaux à rendre</h2>
+<div class="card">
+<p><b>Mission 1 :</b> synthèse sur les CMS (comparatif et justification du choix).</p>
+<p><b>Mission 2 :</b> synthèse sur la veille technologique (définition, intérêt, méthodes, outils, thème choisi).</p>
+<p><b>Mission 3 :</b> synthèse sur l’épreuve E5 (informations, compétences évaluées, tableau de compétences).</p>
+</div>
+
+<h2>Plan de la présentation orale</h2>
+<div class="step"><b>1</b><span>Synthèse sur les CMS : comparatif et CMS retenu.</span></div>
+<div class="step"><b>2</b><span>Synthèse sur la veille technologique et le thème choisi.</span></div>
+<div class="step"><b>3</b><span>Synthèse sur l’épreuve E5.</span></div>
+<div class="step"><b>4</b><span>Bilan de mission : retour sur la recherche de stage, et ce que je retiens pour préparer l’épreuve finale.</span></div>
+
+<h2>Bilan de mission</h2>
+<div class="card">
+<p><b>Recherche de stage :</b> j’ai mis à jour mon CV et je poursuis mes recherches.</p>
+<p><b>Ce que je retiens :</b></p><ul><li>La veille doit être régulière et organisée : un sujet précis, des sources fiables et un outil comme Feedly ou Google Alerts pour ne pas passer à côté des informations.</li><li>Le portfolio se construit tout au long des deux ans : je dois garder des preuves datées de chaque travail et expliquer pourquoi je les ai choisies.</li><li>Pour l’épreuve E5 en SISR, je relierai mes travaux et mon sujet de veille aux blocs de compétences du référentiel, et je préparerai ma présentation à l’avance.</li></ul>
+</div>
+</section>
+
+</main>
+</div>
+<script>
+(function(){
+var ids=["accueil","parcours","projets","cms","veille","e5","suivi"];
+function show(){
+var h=(location.hash||"").replace("#","");
+if(ids.indexOf(h)<0)h="accueil";
+ids.forEach(function(i){document.getElementById(i).classList.toggle("on",i===h)});
+document.querySelectorAll("#nav a").forEach(function(a){
+if(a.getAttribute("href")==="#"+h)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current");
+});
+window.scrollTo(0,0);
+}
+window.addEventListener("hashchange",show);
+show();
+})();
+</script>
+</body>
+</html>
